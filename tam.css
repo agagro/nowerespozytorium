@@ -1,0 +1,210 @@
+body
+{
+background-color:#ffffff;
+font-family:Georgia,sans-serif;
+
+}
+#top{
+padding:80px;
+margin-bottom:15px;
+text-align:center;
+font-size:xx-large;
+}
+
+#inf{
+padding:80px;
+margin-top:100px;
+margin-bottom:15px;
+text-align:center;
+font-size:large;
+}
+
+ol {
+  list-style-type:none;
+  font-size:18px;
+  line-height:2em;
+  text-align:center;
+	background-color:white;
+	color:black;
+}
+
+ol > li {
+  float:left;
+  background-color:white;
+  width:33%;
+	position:relative;
+	border:1px black;
+	margin-right:1px;
+	text-decoration:none;
+}
+
+ol a {
+  display:block;
+  color:black;
+  text-decoration:none;
+  padding:0 5px;
+}
+
+ol > li > a:hover {
+  color:black;
+}
+
+ol > li:hover {
+  background-color:white;
+	border-bottom: 1px solid black;
+}
+
+ol > li > ul {
+  list-style-type:none;
+  padding:1px;
+  margin:0;
+	display:none;
+	position:absolute;
+}
+
+
+	
+ol > li:first-child {
+  margin-left:0;
+}
+
+ol > li > ul > li > a {
+  border-top:1px black;
+}
+
+
+
+ol > li > ul > li {
+  background-color:white;
+	color:black;
+	position:relative;
+	float:left;
+	width:305px;
+}
+
+ol > li > ul > li:hover {
+  background-color:white;
+	color:black;
+	border-bottom: 1px solid black
+}
+
+ol > li > ul > li:hover a {
+  color:black;
+}
+
+ol > li > ul {
+  display:none;
+}
+
+ol > li:hover > ul {
+  display:block;
+}
+
+#menu > li > ul > li > ol {
+  width:200%;
+}
+
+#menu > li > ul > li > ol > li {
+  background-color:white;
+}
+
+#menu > li > ul > li {
+  position:relative;
+  background-color:white;
+}
+
+#menu > li > ul > li > ol {
+  position:absolute;
+  left:100%;
+  width:150%;
+}
+
+
+#menu > li > ul > li:hover > ol {
+  display:block;
+}
+
+#menu > li > ul > li > ol {
+  display:none;
+  position:absolute;
+  left:100%;
+  margin-top:-2em;
+  width:150%;
+}
+
+
+#menu > li > ul > li > ol > a:hover
+ {color:#09C;}
+
+
+#footer
+{background:#DCDCDC;
+color:black;
+margin-left:50px;
+font-size:small;
+border-style:groove;
+border-width:1px;
+border-color:black;
+text-align:center;
+
+
+}
+#footer2 a:link
+{color:black;
+text-decoration: none;
+}
+
+#footer2 a:hover
+{color:#c4c4c4;
+}
+
+#footer2{
+text-align:center;}
+#formularz {
+        width:260px;
+        margin:0 auto;
+        background-color:#fff; 
+        border:2px solid #ccc; 
+        border-radius:10px; 
+		padding:20px; 
+        margin-top:20px;
+		margin-bottom:100px;
+		
+}
+
+#formularz input {
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:12px;
+    color:#555555;
+		text-align:center;
+}
+#formularz textarea,
+#formularz input {
+	padding:5px;
+	border-radius:10px;
+	border:1px solid #ccc;
+	margin-bottom:25px;
+	width:245px;
+}
+
+#formularz input#submit {
+	width:255px;
+	cursor:pointer;
+	margin-bottom:0px;
+}
+
+#formularz p.copy {
+	color:#555555; 
+	margin-bottom:0px;
+	font-size:12px;
+	text-align: center;
+}
+
+#formularz p.copy a {
+	color:#555555; 
+	text-decoration: none;
+	font-weight:bold; 
+}  
